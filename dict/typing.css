@@ -1,0 +1,33 @@
+.dark-mode {
+    background-color: #262D46;
+    color: #ffffff;
+/* Tambahkan properti styling lainnya untuk mode gelap di sini */
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    width: 100%;
+    animation: typing 3.5s steps(40, end);
+}
+
+/* Hand */
+@keyframes wavingHand {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
+
+  .animate-waving-hand {
+    display: inline-block;
+    animation: wavingHand 2s infinite;
+  }
